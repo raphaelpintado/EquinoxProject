@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Equinox.Domain\Equinox.Domain.csproj" />
+		<ProjectReference Include="..\Equinox.Infra.Data\Equinox.Infra.Data.csproj" />
+	</ItemGroup>
+</Project>
