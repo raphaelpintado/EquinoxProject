@@ -4,7 +4,37 @@
 
 <div>
     <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-    <br /><br />
+    <p>Estudado e alterado com o Claude Code.</p>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Clientes</h5>
+                <p class="card-text">Cadastro, edição e histórico de clientes, com as regras de negócio no domínio.</p>
+                <a asp-area="" asp-controller="Customer" asp-action="Index" class="card-link mt-auto">Ver a lista de clientes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">API</h5>
+                <p class="card-text">Os mesmos casos de uso expostos por uma API protegida por autenticação.</p>
+                <a href="https://localhost:5001/swagger" target="_blank" rel="noopener" class="card-link mt-auto">Abrir a documentação da API</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Identity</h5>
+                <p class="card-text">Registro, login e as permissões de quem usa o site.</p>
+                <a asp-area="Identity" asp-page="/Account/Login" class="card-link mt-auto">Ir para o login</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="row">
